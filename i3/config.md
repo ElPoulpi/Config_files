@@ -1,5 +1,15 @@
 # Config i3
 
+
+**A modifier en fonction du Linux**
+
+``Script`` : Chemin à modifier
+
+``Terminal`` : Software à modifier (gnome-terminal, terminator ....)
+
+``Graphic file system`` : Software à modifier (nautilus ....)
+
+``i3bar``: Position à modifier 
 ```
 # i3 config file (v4)
 #
