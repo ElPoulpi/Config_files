@@ -1,66 +1,86 @@
 .
-├── anjay_config_log.h
+²├── anjay_config_log.h
 ├── anjay_init.h
 ├── anjay_modules
-│   ├── anjay_access_utils.h
+²│   ├── anjay_access_utils.h
 │   ├── anjay_bootstrap.h
-│   ├── anjay_dm_utils.h
+²│   ├── anjay_dm_utils.h
 │   ├── anjay_io_utils.h
 │   ├── anjay_notify.h
 │   ├── anjay_raw_buffer.h
-│   ├── anjay_sched.h
+²│   ├── anjay_sched.h
 │   ├── anjay_servers.h
 │   ├── anjay_time_defs.h
-│   ├── anjay_utils_core.h
+²│   ├── anjay_utils_core.h
 │   └── dm
-│       ├── anjay_attributes.h
+²│       ├── anjay_attributes.h
 │       ├── anjay_execute.h
 │       └── anjay_modules.h
 ├── core
-│   ├── anjay_access_utils.c
+²│   ├── anjay_access_utils.c
 │   ├── anjay_access_utils_private.h
-│   ├── anjay_bootstrap_core.c
+²│   ├── anjay_bootstrap_core.c
 │   ├── anjay_bootstrap_core.h
-│   ├── anjay_core.c
-│   ├── anjay_core.h
-│   ├── anjay_dm_core.c
-│   ├── anjay_dm_core.h
+²│   ├── anjay_core.c
+²│   ├── anjay_core.h
+²│   ├── anjay_dm_core.c
+²│   ├── anjay_dm_core.h
 │   ├── anjay_downloader.h
-│   ├── anjay_io_core.c
+²│   ├── anjay_io_core.c
 │   ├── anjay_io_core.h
-│   ├── anjay_io_utils.c
-│   ├── anjay_notify.c
-│   ├── anjay_raw_buffer.c
+²│   ├── anjay_io_utils.c
+²│   ├── anjay_notify.c
+²│   ├── anjay_raw_buffer.c
 │   ├── anjay_servers_inactive.h
-│   ├── anjay_servers_private.h
-│   ├── anjay_servers_utils.c
+²│   ├── anjay_servers_private.h
+²│   ├── anjay_servers_utils.c
 │   ├── anjay_servers_utils.h
-│   ├── anjay_stats.c
+²│   ├── anjay_stats.c
 │   ├── anjay_stats.h
-│   ├── anjay_utils_core.c
-│   ├── anjay_utils_private.h
+²│   ├── anjay_utils_core.c
+²│   ├── anjay_utils_private.h
 │   ├── coap
 │   │   ├── anjay_content_format.h
-│   │   └── anjay_msg_details.h
+²│   │   └── anjay_msg_details.h
 │   ├── dm
-│   │   ├── anjay_discover.c
+²│   │   ├── anjay_discover.c
 │   │   ├── anjay_discover.h
-│   │   ├── anjay_dm_attributes.c
+²│   │   ├── anjay_dm_attributes.c
 │   │   ├── anjay_dm_attributes.h
-│   │   ├── anjay_dm_create.c
+²│   │   ├── anjay_dm_create.c
 │   │   ├── anjay_dm_create.h
-│   │   ├── anjay_dm_execute.c
+²│   │   ├── anjay_dm_execute.c
 │   │   ├── anjay_dm_execute.h
-│   │   ├── anjay_dm_handlers.c
-│   │   ├── anjay_dm_read.c
+²│   │   ├── anjay_dm_handlers.c
+²│   │   ├── anjay_dm_read.c
 │   │   ├── anjay_dm_read.h
-│   │   ├── anjay_dm_write_attrs.c
+²│   │   ├── anjay_dm_write_attrs.c
 │   │   ├── anjay_dm_write_attrs.h
-│   │   ├── anjay_dm_write.c
+²│   │   ├── anjay_dm_write.c
 │   │   ├── anjay_dm_write.h
-│   │   ├── anjay_modules.c
-│   │   ├── anjay_query.c
+²│   │   ├── anjay_modules.c
+²│   │   ├── anjay_query.c
 │   │   └── anjay_query.h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 │   ├── downloader
 │   │   ├── anjay_coap.c
 │   │   ├── anjay_downloader.c
